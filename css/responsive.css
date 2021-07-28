@@ -1,8 +1,93 @@
 @media only screen and (max-width: 1199px){
+    .content_text .heading{
+        position: relative; right: 10rem;
+    }
+    img.content_img {
+        position: relative;
+        bottom: -12rem;
+        /* left: -7rem; */
+        width: 376px;
+        /* height: 425px; */
+    }
 }
 
 @media only screen and (max-width: 992px){
-    
+    h1.headline_h1 {
+        font-size: 5rem;
+        line-height: 5rem;
+        font-weight: 500;
+    }
+    img.content_img {
+        position: relative;
+        top: 4rem;
+        width: 700px;
+    }
+    h1.section-heading {
+        font-size: 40px;
+    }
+    .part_right{
+    position: relative;
+    right: 4rem;
+    padding-top: 2rem;
+    }
+    .second .btn-outline-dark{
+        position: relative; left: 1rem;
+    }
+    .quote-content {
+        position: absolute;
+        left: 31px;
+    }
+    .container.quote-bg .signature img {
+        position: absolute;
+        left: 4px;
+    }
+    .Company h1 {
+        font-size: 2rem;
+        font-weight: 500;
+        padding-bottom: 2rem;
+    }
+    .Company p{
+        font-size: 1.3rem;
+    }
+    .freequotes img{
+        position: relative;
+        bottom: 8rem;
+    }
+    .freequotes .title ,.btn-outline-dark{
+        position: relative; right: 5rem;
+    }
+    .freequotes .title h1 {
+        font-weight: 400;
+        font-size: 2.5rem;
+        padding-bottom: 2rem;
+    }
+    .freequotes .title .p_1 {
+        padding-bottom: 1rem;
+        font-size: 1.3rem;
+    }
+    .social-link a{
+        margin-right: 1rem;
+    }
+    .social h1{
+        font-size: 2rem;
+        font-weight: 400;
+        position: relative;
+        top: -4rem;
+        right: 5rem;
+    }
+    .social input.mail {
+        position: relative;
+        top: -2rem;
+        right: 5rem;
+    }
+    .social button.btn.btn-subscribe {
+        position: relative;
+        bottom: -1rem;
+        right: 26.7rem;
+    }
+    .social_media {
+        padding: 3rem 2rem;
+    }
 }
 
 @media only screen and (max-width: 767px){

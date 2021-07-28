@@ -304,7 +304,7 @@ button.btn.btn-subscribe:hover{
     margin-right: 15px;
 }
 .social-link a{
-    padding-right: 2rem; color: black; transition: all 0.2s ease-in ; position: relative; overflow: hidden;
+    padding-right: rem; color: black; transition: all 0.2s ease-in ; position: relative; overflow: hidden;
 }
 .social-link a:hover{
     transform: translateY(-5px); color: rgb(10, 90, 238);
