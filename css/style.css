@@ -28,6 +28,7 @@
     a:focus{outline: none;outline-offset: 0;}
     a:focus, a:hover{text-decoration: none;}
     .section-padding-bottom{padding-bottom: 70px;}
+    a{ text-decoration: none;}
 /*RESET CSS END*/
 
 /* COMMON CSS START */
@@ -93,6 +94,12 @@ button.btn.btn-contact {
 button.btn.btn-contact:hover{
     color: black; background-color: #fff; box-shadow: 5px 10px 8px #888888;transform: translateY(-3px);
 }
+button.btn.btn-contact a{
+    text-decoration: none; color: #fff;transition: all 0.5s ease-in;
+}
+button.btn.btn-contact a:hover{
+    color: #000000;
+}
 ul.dropdown-menu.sub-menu.element.element {
     height: 16rem; width: auto; position: absolute; left: -31rem; padding: 12px;
 }
@@ -127,6 +134,7 @@ button.btn.btn-success:hover{
 .content_text{
     padding: 9rem 0;
 }
+
 /* CONTENT END */
 
 /* CARDS START */
@@ -161,8 +169,17 @@ a.icons_1 a .fas{
 .container.part_1 {
     padding: 5rem 0 1rem 0;
 }
+.container.part_1 .part_img{
+    width: 100%;
+}
+.container.part_1 .part_img img{
+    width: 100%; height: auto;
+}
 .part_right{
     text-align: left; padding-left: 2rem;
+}
+.part_right .part_content {
+    width: 130%;
 }
 .part_right h1 {
     font-size: 3rem; font-weight: 400; padding-bottom: 2rem;
@@ -245,17 +262,24 @@ figure{
 /* Creative Company End */
 
 /* FREEQUOTE START */
-section.freequotes {
-    padding: 8rem 0;
+ .freequote{
+    padding: 8rem 0; text-align: left; 
+    /* position: relative; top: 4rem; */
 }
-.freequotes .title h1 {
+ .freequote .title h1 {
     font-weight: 400; font-size: 3rem; padding-bottom: 2rem;
 }
-.freequotes .title .p_1{
-    padding-bottom: 2rem; font-family: 'Satisfy', cursive; font-size: 1.7rem;
+ .freequote .title .p_1{
+    padding-bottom: 1rem; font-family: 'Satisfy', cursive; font-size: 1.7rem; line-height: 2rem;
 }
-.freequotes .title .p_2 {
-    padding-bottom: 1rem; font-size: 13px; font-weight: 700;
+.freequote .title .p_2 {
+    padding-bottom: 1rem; font-size: 19px; font-weight: 500;
+}
+ .freequote .freequote_img{
+    width: 100%;
+}
+.freequote .freequote_img figure img{
+    width: 100%; height: auto;
 }
 /* FREEQUOTE END */
 

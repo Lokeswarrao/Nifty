@@ -3,87 +3,64 @@
         position: relative; right: 10rem;
     }
     img.content_img {
-        position: relative;
-        bottom: -12rem;
-        /* left: -7rem; */
-        width: 376px;
-        /* height: 425px; */
+        position: relative; bottom: -12rem; width: 376px;
     }
 }
 
 @media only screen and (max-width: 992px){
     h1.headline_h1 {
-        font-size: 5rem;
-        line-height: 5rem;
-        font-weight: 500;
+        font-size: 5rem; line-height: 5rem; font-weight: 500;
     }
     img.content_img {
-        position: relative;
-        top: 4rem;
-        width: 700px;
+        position: relative; top: 4rem; width: 700px;
     }
     h1.section-heading {
         font-size: 40px;
     }
     .part_right{
-    position: relative;
-    right: 4rem;
-    padding-top: 2rem;
+    position: relative; right: 4rem; padding-top: 2rem;
+    }
+    .part_right .part_content {
+        width: 100%; position: relative;left: 4rem;
     }
     .second .btn-outline-dark{
         position: relative; left: 1rem;
     }
     .quote-content {
-        position: absolute;
-        left: 31px;
+        position: absolute; left: 31px;
     }
     .container.quote-bg .signature img {
-        position: absolute;
-        left: 4px;
+        position: absolute; left: 4px;
     }
     .Company h1 {
-        font-size: 2rem;
-        font-weight: 500;
-        padding-bottom: 2rem;
+        font-size: 2rem; font-weight: 500; padding-bottom: 2rem;
     }
     .Company p{
         font-size: 1.3rem;
     }
     .freequotes img{
-        position: relative;
-        bottom: 8rem;
+        position: relative; bottom: 8rem;
     }
     .freequotes .title ,.btn-outline-dark{
-        position: relative; right: 5rem;
+        position: relative; right: 0rem;
     }
     .freequotes .title h1 {
-        font-weight: 400;
-        font-size: 2.5rem;
-        padding-bottom: 2rem;
+        font-weight: 400; font-size: 2.5rem; padding-bottom: 2rem;
     }
     .freequotes .title .p_1 {
-        padding-bottom: 1rem;
-        font-size: 1.3rem;
+        padding-bottom: 1rem; font-size: 1.3rem;
     }
     .social-link a{
         margin-right: 1rem;
     }
     .social h1{
-        font-size: 2rem;
-        font-weight: 400;
-        position: relative;
-        top: -4rem;
-        right: 5rem;
+        font-size: 2rem; font-weight: 400; position: relative; top: -4rem; right: 5rem;
     }
     .social input.mail {
-        position: relative;
-        top: -2rem;
-        right: 5rem;
+        position: relative; top: -2rem; right: 5rem;
     }
     .social button.btn.btn-subscribe {
-        position: relative;
-        bottom: -1rem;
-        right: 26.7rem;
+        position: relative; bottom: -1rem; right: 26.7rem;
     }
     .social_media {
         padding: 3rem 2rem;
@@ -91,6 +68,88 @@
 }
 
 @media only screen and (max-width: 767px){
-   
+   .content_text h5{
+       font-size: 0.9rem; padding-bottom: 1rem;
+   }
+   h1.headline_h1 {
+    font-size: 3rem; line-height: 3rem; font-weight: 400; padding-bottom: 2rem;
     }
+    h1.section-heading {
+        font-size: 25px; font-weight: 400; padding-bottom: 1rem;
+    }
+    p.second_p {
+        font-size: 0.9rem; padding-bottom: 1rem;
+    }
+    .container.part_1 .part_img {
+        width: 200%;
+        position: relative;
+        right: -12px;
+    }
+    .part_right .part_content {
+        width: 190%;
+        position: relative;
+        left: auto;
+    }
+    .col.col-lg-6.col-md-12.part_right {
+        padding-top: 22rem;
+        position: relative;
+        right: 166px;
+    }
+    .part_right h1 {
+        font-size: 2rem;
+        font-weight: 400;
+        padding-bottom: 1rem;
+    }
+    .part_right p {
+        font-family: 'Satisfy', cursive;
+        font-size: 1.2rem;
+        padding-bottom: 1rem;
+        line-height: 26px;
+    }
+    .part_right ul {
+        padding-bottom: 1rem;
+    }
+    .part_right li {
+        padding: 2px 0;
+    }
+    button.btn.btn-outline-dark {
+        padding: 10px 15px;
+        font-weight: 700;
+    }
+    .container.quote-bg p{
+        font-size: 36px;
+    }
+    .freequote .freequote_img {
+        width: 190%;
+        position: absolute;
+        top: -6rem;
+    }
+    .freequote .title {
+        position: relative;
+        right: 11rem;
+        top: 15rem;
+        width: 215%;
+        height: auto;
+    }
+    .freequote .title h1 {
+        font-weight: 400;
+        font-size: 2rem;
+        padding-bottom: 1.2rem;
+    }
+    .freequote .title .p_1 {
+        padding-bottom: 0.8rem;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    .freequote .title .p_2 {
+        padding-bottom: 16rem;
+        font-size: 0.9rem;
+        font-weight: 700;
+    }
+    button.btn.btn-outline-dark {
+        position: relative;
+        top: -15rem;
+    }
+    
+}
 
