@@ -146,10 +146,19 @@
         font-size: 0.9rem;
         font-weight: 700;
     }
-    button.btn.btn-outline-dark {
+    .freequote button.btn.btn-outline-dark {
+        padding: 10px 15px;
+        font-weight: 700;
         position: relative;
-        top: -15rem;
+        bottom: 14rem;
     }
-    
+    footer .right {
+        position: relative;
+        right: 0;
+        padding-top: 6px;
+    }
+    footer .left{
+        display: inline;
+    }
 }
 

@@ -295,7 +295,7 @@ section.social{
     font-weight: 300;
 }
 input[type="email"] {
-    padding: 10px 10px; width: 50%; border: none;
+    padding: 10px 10px; width: 70%; border: none;
 }
 button.btn.btn-subscribe {
     background-color: #fff; padding: 9px 20px; border-radius: 0; position: absolute; color: limegreen; font-weight: 400; z-index: 1; transition: color 0.5s;

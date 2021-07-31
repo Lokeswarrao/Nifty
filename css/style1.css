@@ -75,6 +75,9 @@ h3{font-weight: 800;color: #002347;font-size: 24px;line-height: 30px;margin-bott
 li.nav-item {
     padding-right: 30px;
 }
+a.nav-link {
+    color: white;
+}
 .nav-link {
     display: block;padding: .5rem 1rem;color: #000000;
 }
@@ -103,6 +106,159 @@ ul.dropdown-menu.sub-menu.element.element {
 
 /* CONTACT_TITLE START */
 .Contact_title{
-    background: url(../images/contact1.jpg); background-position: 50% 0px;
+   background-image: url(../images/contact1.jpg); background-position: 50% 0px ;background-attachment: fixed; background-size: cover;
+    text-align: center; color: #fff; background-size: cover;
+}
+.Title {
+    padding: 16rem 0;
+}
+.Title h1{
+    font-size: 6rem; padding-bottom: 6rem; position: relative; top: -4rem;
+}
+.Title p{
+    font-size: 25px; color: #fff; line-height: 15px; position: relative; top: -9rem;
 }
 /* CONTACT_TITLE END */
+
+/* FORM START */
+section.contact_form {
+    padding: 8rem 0;
+}
+.contact_form .row_1{
+    padding-bottom: 6rem;
+}
+.form_content {
+    max-width: 200%; padding-left: 10rem; padding-right: 10rem;
+}
+.row_1{
+    padding: 5rem;
+}
+.row_2{
+    padding: 0 10rem;
+}
+section.contact_form .form {
+    max-width: 200%; padding-left: 3rem; padding-right: 3rem;
+}
+section.contact_form .form_content span{
+    font-size: 15px;
+}
+section.contact_form .form_content h1{
+    padding-bottom: 2rem;
+}
+section.contact_form form{
+    width: 90%; max-width: 600px;
+}
+.contact_1,.address,.follow h4{
+    padding-bottom: 1rem; color: rgb(100, 100, 100);
+}
+.row_2 .contact_1 h1{
+    color: #313131;
+}
+.row_2 .follow .link a{
+    color: #313131; margin-right: 20px; font-size: 25px; transition: all 0.3s ease-in-out; 
+}
+.row_2 .follow .link a:hover{
+    color: teal; transform: translateY(-3px)
+}
+/* .contact_form form{ */
+    /* display: flex; align-items: center; justify-content: center; */
+/* } */
+.input_group{
+    margin-bottom: 25px; position: relative;
+}
+input,textarea{
+    width: 100%; padding: 5px 10px; outline: 0; border: 5px solid rgb(231, 231, 231); color: #000000; background: #e4e4e4; font-size: 15px;
+}
+label{
+    height: 100%; position: absolute; left: 0; top: 0; padding: 10px; color: #6b6b6b; cursor: text; transition: 0.3s;
+}
+section.contact_form button{
+    padding: 15px 0; color: #fff; outline: none; background: #1a1818; width: 100%; cursor: pointer; border: 2px solid; border-radius: 5px; transition: all 0.5s ease-in-out;
+}
+input:focus~label, input:valid~label,textarea:focus~label,textarea:valid~label{
+    top: -35px; font-size: 15px; color: teal;
+}
+section.contact_form button:hover{
+    transform: translateY(-3px); background: transparent; border: 1px solid teal; color: teal;
+}
+label:hover{
+    color: teal;
+} 
+/* FORM END */
+
+/* SOCIAL MEDIA START */
+section.social{
+    padding: 7rem 0; background: rgb(19, 19, 19); color: #fff;
+}
+.form-title {
+    display: flex;
+    padding-bottom: 2rem;
+}
+.form-title h1{
+    font-weight: 300;
+}
+input[type="email"] {
+    padding: 11px 11px; width: 70%; border: none; background: #fff;
+}
+button.btn.btn-subscribe {
+    background-color: #fff; padding: 10px 20px; border-radius: 0; position: absolute; color: rgb(98, 99, 98); font-weight: 400; z-index: 1; transition: color 0.5s;
+}
+button.btn.btn-subscribe span{
+    width: 0; height: 100%; position: absolute; top: 0; left: 0; background: rgb(49, 49, 49); z-index: -1; transition: 0.5s;
+}
+button.btn.btn-subscribe:hover span{
+    width: 100%;
+}
+button.btn.btn-subscribe:hover{
+    color: rgb(138, 138, 138); border: none;
+}
+.social_media {
+    padding: 0 10rem; padding-top: 2rem;
+}
+.social_media .part_1 img ,h5{
+    padding-bottom: 1.5rem;
+}
+.social_media .part_1 li{
+    padding-bottom: 7px; font-weight: 300;
+}
+.social_media .part_1 a{
+    color: #fff;
+}
+.social_media .part_1 a:hover{
+    text-decoration: none; color: #7b838a;
+}
+.social_media .part_1 a .icon-1{
+    margin-right: 15px;
+}
+.social-link a{
+    padding-right: rem; color: #fff; transition: all 0.2s ease-in ; position: relative; overflow: hidden; margin-right: 1.5rem; font-size: 25px;
+}
+.social-link a:hover{
+    transform: translateY(-5px); color: teal;
+}
+.social_media p {
+    padding-top: 2rem; font-size: 14px; font-weight: 600; color: #fff;
+}
+.social .row_3{
+    position: relative;
+    bottom: -4rem;
+}
+/* SOCIAL MEDIA END */
+
+/* FOOTER START */
+footer{
+    padding: 1rem 0; text-align: center; background: rgb(19, 19, 19);
+}
+footer .left{
+    color: whitesmoke; display: flex;
+}
+ footer .right {
+    position: absolute; right: 13rem;
+}
+footer .right a{
+    padding-right: 1px;
+}
+footer .right a {
+    padding-right: 15px; color: #fff;
+}
+/* FOOTER END */
