@@ -9,10 +9,15 @@
 
 @media only screen and (max-width: 992px){
     h1.headline_h1 {
-        font-size: 5rem; line-height: 5rem; font-weight: 500;
+        font-size: 4rem; line-height: 5rem; font-weight: 400;
+    }
+    .content_text_img {
+        width: 500%;
+        position: relative;
+        right: 12rem;
     }
     img.content_img {
-        position: relative; top: 4rem; width: 700px;
+         width: 500px;
     }
     h1.section-heading {
         font-size: 40px;
@@ -53,17 +58,23 @@
     .social-link a{
         margin-right: 1rem;
     }
-    .social h1{
-        font-size: 2rem; font-weight: 400; position: relative; top: -4rem; right: 5rem;
+    .social h1 {
+        font-size: 2rem; font-weight: 400; position: relative; top: -4rem; right: 5rem; width: 114%;
     }
     .social input.mail {
         position: relative; top: -2rem; right: 5rem;
     }
     .social button.btn.btn-subscribe {
-        position: relative; bottom: -1rem; right: 26.7rem;
+        position: relative; bottom: 2.2rem; right: 5.7rem;
     }
     .social_media {
         padding: 3rem 2rem;
+    }
+    .social .heading {
+        padding-left: 10rem; padding-top: 8rem; text-align: center;
+    }
+    .subscribe {
+        padding-top: 7rem; position: relative; left: 6rem;
     }
 }
 
@@ -81,30 +92,19 @@
         font-size: 0.9rem; padding-bottom: 1rem;
     }
     .container.part_1 .part_img {
-        width: 200%;
-        position: relative;
-        right: -12px;
+        width: 200%; position: relative; right: -12px;
     }
     .part_right .part_content {
-        width: 190%;
-        position: relative;
-        left: auto;
+        width: 190%; position: relative; left: auto;
     }
     .col.col-lg-6.col-md-12.part_right {
-        padding-top: 22rem;
-        position: relative;
-        right: 166px;
+        padding-top: 22rem; position: relative; right: 166px;
     }
     .part_right h1 {
-        font-size: 2rem;
-        font-weight: 400;
-        padding-bottom: 1rem;
+        font-size: 2rem; font-weight: 400; padding-bottom: 1rem;
     }
     .part_right p {
-        font-family: 'Satisfy', cursive;
-        font-size: 1.2rem;
-        padding-bottom: 1rem;
-        line-height: 26px;
+        font-family: 'Satisfy', cursive; font-size: 1.2rem; padding-bottom: 1rem; line-height: 26px;
     }
     .part_right ul {
         padding-bottom: 1rem;
@@ -113,70 +113,43 @@
         padding: 2px 0;
     }
     button.btn.btn-outline-dark {
-        padding: 10px 15px;
-        font-weight: 700;
+        padding: 10px 15px; font-weight: 700;
     }
     .container.quote-bg p{
         font-size: 36px;
     }
     .freequote .freequote_img {
-        width: 190%;
-        position: absolute;
-        top: -6rem;
+        width: 190%; position: absolute; top: -6rem;
     }
     .freequote .title {
-        position: relative;
-        right: 11rem;
-        top: 15rem;
-        width: 215%;
-        height: auto;
+        position: relative; right: 11rem; top: 15rem; width: 215%; height: auto;
     }
     .freequote .title h1 {
-        font-weight: 400;
-        font-size: 2rem;
-        padding-bottom: 1.2rem;
+        font-weight: 400; font-size: 2rem; padding-bottom: 1.2rem;
     }
     .freequote .title .p_1 {
-        padding-bottom: 0.8rem;
-        font-size: 1.2rem;
-        line-height: 1.5rem;
+        padding-bottom: 0.8rem; font-size: 1.2rem; line-height: 1.5rem;
     }
     .freequote .title .p_2 {
-        padding-bottom: 16rem;
-        font-size: 0.9rem;
-        font-weight: 700;
+        padding-bottom: 16rem; font-size: 0.9rem; font-weight: 700;
     }
     .freequote button.btn.btn-outline-dark {
-        padding: 10px 15px;
-        font-weight: 700;
-        position: relative;
-        bottom: 14rem;
+        padding: 10px 15px; font-weight: 700; position: relative; bottom: 14rem;
     }
-    .heading {
-        padding-left: 12rem;
-        padding-top: 2rem;
-        width: 550px;
+    .social .heading {
+        padding-left: 12rem; padding-top: 2rem; width: 550px; text-align: left;
     }
     .social h1 {
-        font-size: 2rem;
-        font-weight: 700;
-        position: relative;
-        top: -4rem;
-        right: 11rem;
+        font-size: 2.5rem; font-weight: 400; position: relative; top: -2rem; right: 11rem;
     }
     .subscribe {
-        position: relative;
-        left: 92px;
+        position: relative; left: 92px; bottom: 35px;
     }
     .social button.btn.btn-subscribe {
-        position: relative;
-        bottom: 1rem;
-        right: 4.9rem;
+        position: relative; bottom: 1rem; right: 4.9rem;
     }
     footer .right {
-        position: relative;
-        right: 0;
-        padding-top: 6px;
+        position: relative; right: 0; padding-top: 6px;
     }
     footer .left{
         display: inline;
