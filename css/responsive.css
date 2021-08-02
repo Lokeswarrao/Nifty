@@ -152,6 +152,27 @@
         position: relative;
         bottom: 14rem;
     }
+    .heading {
+        padding-left: 12rem;
+        padding-top: 2rem;
+        width: 550px;
+    }
+    .social h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        position: relative;
+        top: -4rem;
+        right: 11rem;
+    }
+    .subscribe {
+        position: relative;
+        left: 92px;
+    }
+    .social button.btn.btn-subscribe {
+        position: relative;
+        bottom: 1rem;
+        right: 4.9rem;
+    }
     footer .right {
         position: relative;
         right: 0;
