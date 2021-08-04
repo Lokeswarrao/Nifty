@@ -5,6 +5,30 @@
     img.content_img {
         position: relative; bottom: -12rem; width: 376px;
     }
+    /* CONTACT US START */
+    .Contact_title .Title h1 {
+        font-size: 5rem;
+    }
+    .Contact_title .Title p{
+        font-size: 20px;
+    }
+    .contact_form .form_content{
+        max-width: 600%; padding-left: 0; padding-right: 0; position: relative; right: 3rem;
+    }
+    section.contact_form {
+        padding: 2rem 0;
+    }
+    section.contact_form .form {
+        max-width: 600%;
+    }
+    section.contact_form form {
+        width: 130%;
+    }
+    section.contact_form .row_2 {
+        padding: 0 1rem;
+    }
+    .Title_p {width: 50%; position: relative; left: 15rem;}
+    /* CONTACT US END */
 }
 
 @media only screen and (max-width: 992px){
@@ -83,6 +107,28 @@
     footer .right a {
         padding-right: 2rem;
     }
+    /* CONTACT US START */
+    .Contact_title .Title h1 {
+        font-size: 3rem;
+    }
+    section.contact_form .form{
+        position: relative; right: 7rem;
+    }
+    section.contact_form form {
+        width: 200%;
+        max-width: 700px;
+    }
+    section.contact_form .form_content p{
+        margin-bottom: 3rem;
+    }
+    section.contact_form .contact_1 {
+        padding-bottom: 8rem;
+    }
+    .Title_p {width: 109%; position: relative; left: -2rem;}
+    .Contact_title .Title p {
+        font-size: 22px;
+    }
+    /* CONTACT US END */
 }
 
 @media only screen and (max-width: 767px){
@@ -164,5 +210,36 @@
     .social input[type="email"] {
         width: 90%;
     }
+    .social .row_3 {
+        position: relative;
+        bottom: -4rem;
+        display: inline-block;
+    }
+    /* CONTACT US START */
+    .Contact_title .Title h1 {
+        font-size: 2.5rem;
+    }
+    .Title_p {width: 100%;
+        position: relative;
+        left: 0rem;
+    }
+    .contact_form .row_1 {
+        padding-bottom: 6rem;
+        padding-left: 3rem;
+        padding-right: 2rem;
+    }
+    .contact_form .form_content {
+        position: relative;
+        right: 0;
+    }
+    section.contact_form .form {
+        position: relative;
+        right: 6rem;
+    }
+    section.contact_form .row_2 {
+        padding: 00;
+        display: contents;
+    }
+    /* CONTACT US END */
 }
 
